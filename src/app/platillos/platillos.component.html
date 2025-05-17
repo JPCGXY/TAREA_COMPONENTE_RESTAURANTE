@@ -1,0 +1,16 @@
+<div class="container text-center mt-4">
+  <h2 class="text-warning">{{ categoryTitle }}</h2>
+  <button class="btn btn-primary mb-2" (click)="addDish()">➕ Añadir platillo</button>
+
+  <div *ngFor="let dish of dishes; let i = index" class="card mb-3">
+    <img [src]="dish.image" class="card-img-top" alt="{{ dish.name }}">
+    <div class="card-body">
+      <h4 class="card-title text-warning">{{ dish.name }}</h4>
+      <p>💰 <strong>Precio:</strong> ${{ dish.price }}</p>
+      <p>🥘 <strong>Ingredientes:</strong> {{ dish.ingredients }}</p>
+      <p><strong>Descripción:</strong> {{ dish.description }}</p>
+      <button class="btn btn-danger btn-sm" (click)="removeDish(i)">🗑️ Eliminar</button>
+      <p class="mt-2"><strong>Imagen:</strong> <a href="{{ dish.image }}" target="_blank">Buscar imagen</a></p>
+    </div>
+  </div>
+</div>

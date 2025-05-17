@@ -1,0 +1,43 @@
+body {
+    background-color: #000;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://www.xtrafondos.com/wallpapers/muelle-en-noche-estrellada-4555.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(31, 31, 31, 0.8); 
+    border-bottom: 2px solid #ffd700;
+  }
+  
+  h1 {
+    color: #ffd700;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .card {
+    background-color: rgba(31, 31, 31, 0.8);
+    color: white;
+    border: 1px solid #ffd700;
+  }
+  
+  .btn-primary {
+    background-color: #ffd700;
+    color: black;
+    border: none;
+  }
+  
+  .btn-danger {
+    background-color: #ff4d4d;
+    border: none;
+  }
+  

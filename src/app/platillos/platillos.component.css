@@ -1,0 +1,70 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://example.com/estrellas.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  background-color: rgba(15, 15, 15, 0.9); 
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h2, h4 {
+  color: #ffd700; 
+  text-shadow: 2px 2px 6px rgba(255, 215, 0, 0.7); 
+}
+
+.card {
+  background-color: rgba(25, 25, 25, 0.95); 
+  color: #fff;
+  border: 2px solid #ffd700; 
+  margin: auto;
+  width: 80%;
+}
+
+.card-img-top {
+  display: block;
+  margin: auto;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #ffd700; 
+}
+
+.list-group-item {
+  background-color: #222;
+  color: #fff; 
+  text-align: center;
+  border-bottom: 1px solid #ffd700; 
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #ffd700; 
+  color: black;
+}
+
+.btn-danger {
+  background-color: #ff4d4d;
+  border: none;
+}
+
+a {
+  color: #ffd700; 
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fff; 
+}
